@@ -4,22 +4,184 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="styles.css">
-  <title>Liquor</title>
+  <link href="./fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+  <title>liquor</title>
 </head>
 <body>
   <header id="header">
-    <img src="" alt="company logo" id="header-img">
-    <nav id="nav-bar"></nav>
-      <a class="nav-link" href=""></a>
-      <a class="nav-link" href=""></a>
-      <a class="nav-link" href=""></a>
+    <img src="./logo/liquor.png" alt="company logo" id="header-img" height="80" width="160">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#wine">wine</a>
+      <a class="nav-link" href="#spirits">spirits</a>
+      <a class="nav-link" href="#beer">beer</a>
+      <a class="nav-link" href="#">about&nbsp;us</a>
+    </nav>
+    <span id="cart"><i class="fas fa-shopping-cart" style="color:red"></i></span>
   </header>
   <main id="main">
-
+    <div id="intro">
+      <video width="100%" height="82%" poster="./img/elevate-snnhGYNqm44-unsplash.jpg" loop muted autoplay>
+        <source src="./videos/Smirnoff Bottle Smash TV advert 20sec.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <form id="form">
+          <label for="email"><i class="far fa-envelope"></i>
+            <input type="email" id="email" name="email" placeholder="janedoe@example.com">
+          </label>
+            <button type="submit" id="submit">
+              <a href="https://freecodecamp.com/email-submit">subscribe</a>
+            </button>
+        </form>
+    </div>
+    <div id="about_us">
+      <h2>ABOUT&nbsp;US</h2>
+      <p>We take corporate social responsibility seriously, and make sure that every beer we sell is a responsible sale — whether it’s through our WeID 25 program or refusing to sell to intoxicated customers. We let brewers decide where they want to sell their product! Brewers can be in one store, 50 stores or all 450 locations of the Beer Store — it’s completely up to them.
+      </p>
+      <p class="social">
+        <a href="#footer" class="fab fa-whatsapp"></a>
+        <a href="#footer" class="fab fa-twitter"></a>
+        <a href="#footer" class="fas fa-mobile"></a>
+        <a href="#footer" class="fab fa-telegram-plane"></a>
+      </p>
+    </div>
+    <div id="products">
+      <hr>
+      <h2>wine</h2>
+      <div id="wine">
+        <figure>
+          <img src="./img-products/wine7.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/wine8.jfif" alt="" width="150" height="auto">
+          <figcaption>cellar cask</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/wine12.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/wine5.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/wine9.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/wine10.jfif" alt="" width="150" height="auto">
+          <figcaption>cellar cask</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/wine11.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/wine4.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <!-- <figure>
+          <img src="./img-products/wine13.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure> -->
+        <figure>
+          <img src="./img-products/wine14.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/wine15.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/wine16.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/wine17.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <!-- <figure>
+          <img src="./img-products/wine18.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure> -->
+      </div>
+      <hr>
+      <h2>beer</h2>
+      <div id="beer">
+        <figure>
+          <img src="./img-products/beer2.jfif" alt="" width="150" height="auto">
+          <figcaption>tusker</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/beer3.jfif" alt="" width="150" height="auto">
+          <figcaption>guinness</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/beer4.jfif" alt="" width="150" height="auto">
+          <figcaption>harp</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/beer5.jfif" alt="" width="150" height="auto">
+          <figcaption>corona</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/beer6.jfif" alt="" width="150" height="auto">
+          <figcaption>original 19</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/beer7.jfif" alt="" width="150" height="auto">
+          <figcaption>becks</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/beer8.jfif" alt="" width="150" height="auto">
+          <figcaption>calsberg</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/beer9.jfif" alt="" width="150" height="auto">
+          <figcaption>pilsner</figcaption>
+        </figure>
+        <!-- <figure>
+          <img src="./img-products/beer10.jfif" alt="" width="150" height="auto">
+          <figcaption>corona</figcaption>
+        </figure> -->
+        <figure>
+          <img src="./img-products/beer11.jfif" alt="" width="150" height="auto">
+          <figcaption>white cap</figcaption>
+        </figure>
+        <!-- <figure>
+          <img src="./img-products/beer12.jfif" alt="" width="150" height="auto">
+          <figcaption>corona</figcaption>
+        </figure> -->
+        <figure>
+          <img src="./img-products/beer13.jfif" alt="" width="150" height="auto">
+          <figcaption>corona</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/beer14.jfif" alt="" width="150" height="auto">
+          <figcaption>black label</figcaption>
+        </figure>
+      </div>
+      <hr>
+      <h2>spirits</h2>
+      <div id="spirits">
+        <figure>
+          <img src="./img-products/beer6.jfif" alt="" width="150" height="auto">
+          <figcaption>original 19</figcaption>
+        </figure>
+        <figure>
+          <img src="./img-products/beer7.jfif" alt="" width="150" height="auto">
+          <figcaption>becks</figcaption>
+        </figure>
+      </div>
+    </div>
   </main>
   <footer id="footer">
-
+    <p>&copy;liquor.co.ke&nbsp;2020<i class="fas fa-glass-cheers" style="padding-left: 3px; color: #f00;"></i></p>
+    <ul>
+      <li>0743709788</li><li>@liquor_twitter</li><li>@liquor_telegram</li>
+    </ul>
   </footer>
 </body>
 </html>
