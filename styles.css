@@ -93,10 +93,11 @@
   padding: 7px;
   border: 1px solid #f00;
   border-radius: 5px;
-}
-#submit a {
-  text-decoration: none;
   color: #fff;
+}
+#submit:hover {
+  background-color: #800000;
+  border-color: #800000;
 }
 #about_us {
   font-size: 0.87rem;
@@ -227,7 +228,7 @@ figure {
   input[type="email"] {
     font-size: 1.5rem;
   }
-  #submit a {
+  #submit {
     font-size: 1.2rem;
   }
   #cart {
